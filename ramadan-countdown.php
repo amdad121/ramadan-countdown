@@ -32,7 +32,7 @@ if (!function_exists('add_action')) {
     exit;
 }
 
-function tdtt_scripts()
+function tdtt_scripts_load()
 {
     wp_register_script('rdcd_js', plugin_dir_url(__FILE__) . 'public/js/custom.min.js', [], '', true);
     wp_enqueue_script('rdcd_js');
@@ -41,13 +41,13 @@ function tdtt_scripts()
     wp_enqueue_style('rdcd_style');
 }
 
-add_action('wp_enqueue_scripts', 'tdtt_scripts');
+add_action('wp_enqueue_scripts', 'tdtt_scripts_load');
 
-function rdtt_widget()
+function rdtt_countdown_widget()
 {
     register_widget('rdcd_cowndown');
 }
-add_action('widgets_init', 'rdtt_widget');
+add_action('widgets_init', 'rdtt_countdown_widget');
 
 class rdcd_cowndown extends WP_Widget
 {
@@ -105,8 +105,8 @@ class rdcd_cowndown extends WP_Widget
     }
 }
 
-add_shortcode('rdtt_countdown', 'rdtt_shortcode');
-function rdtt_shortcode()
+add_shortcode('rdtt_countdown', 'rdtt_countdown_shortcode');
+function rdtt_countdown_shortcode()
 {
     ob_start(); ?>
 <div class="rm_wrapper">
