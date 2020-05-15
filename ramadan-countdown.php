@@ -32,7 +32,7 @@ if (!function_exists('add_action')) {
     exit;
 }
 
-function tdtt_scripts_load()
+function rdcd_scripts_load()
 {
     wp_register_script('rdcd_js', plugin_dir_url(__FILE__) . 'public/js/custom.min.js', [], '', true);
     wp_enqueue_script('rdcd_js');
@@ -41,15 +41,15 @@ function tdtt_scripts_load()
     wp_enqueue_style('rdcd_style');
 }
 
-add_action('wp_enqueue_scripts', 'tdtt_scripts_load');
+add_action('wp_enqueue_scripts', 'rdcd_scripts_load');
 
-function rdtt_countdown_widget()
+function rdcd_countdown_widget()
 {
-    register_widget('rdcd_cowndown');
+    register_widget('rdcd_countdown');
 }
-add_action('widgets_init', 'rdtt_countdown_widget');
+add_action('widgets_init', 'rdcd_countdown_widget');
 
-class rdcd_cowndown extends WP_Widget
+class rdcd_countdown extends WP_Widget
 {
     public function __construct()
     {
@@ -57,7 +57,7 @@ class rdcd_cowndown extends WP_Widget
             'description' => __('Get the update of ramadan.'),
             'customize_selective_refresh' => true,
         ];
-        parent::__construct('rdtt_cowndown', __('Ramadan Cowndown'), $widget_ops);
+        parent::__construct('rdcd_countdown', __('Ramadan Countdown'), $widget_ops);
     }
 
     public function widget($args, $instance)
@@ -72,6 +72,9 @@ class rdcd_cowndown extends WP_Widget
             echo $args['before_title'] . $title . $args['after_title'];
         } ?>
 <div class="rm_wrapper">
+    <a href="https://codeofamdad.com" target="_blank">
+        <img class="rm_bg" src="https://codeofamdad.com/ads/rc.jpg" alt="rm">
+    </a>
     <div id="logo" style="display: none;">
         <div class="rm_city"><b>ঢাকায়</b></div>
         <div>কাল সাহ্&zwnj;রি: ভোর <span id="sehriTS"></span></div>
@@ -105,11 +108,14 @@ class rdcd_cowndown extends WP_Widget
     }
 }
 
-add_shortcode('rdtt_countdown', 'rdtt_countdown_shortcode');
-function rdtt_countdown_shortcode()
+add_shortcode('rdcd_countdown', 'rdcd_countdown_shortcode');
+function rdcd_countdown_shortcode()
 {
     ob_start(); ?>
 <div class="rm_wrapper">
+    <a href="https://codeofamdad.com" target="_blank">
+        <img class="rm_bg" src="https://codeofamdad.com/ads/rc.jpg" alt="rm">
+    </a>
     <div id="logo" style="display: none;">
         <div class="rm_city"><b>ঢাকায়</b></div>
         <div>কাল সাহ্&zwnj;রি: ভোর <span id="sehriTS"></span></div>
