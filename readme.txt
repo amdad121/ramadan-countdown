@@ -15,7 +15,7 @@ This is the plugin where you can get the Ramadan Timetable with Countdown.
 
 This is the plugin where you can get the Ramadan Timetable with Countdown. It us easy to use. It has a widget & shortcode. you can use with your choice.
 
-If you want to use as a shortcode. just put on the code where you want to show `<?php code(); [rdtt_countdown] ?>`
+If you want to use as a shortcode. just put on the code where you want to show `<?php code(); [rdcd_countdown] ?>` or `[rdcd_countdown]`
 
 
 == Frequently Asked Questions ==
