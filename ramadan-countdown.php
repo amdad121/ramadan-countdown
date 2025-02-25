@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name:       Ramadan Countdown
- * Plugin URI:        https://codeofamdad.com
+ * Plugin URI:        https://codeappear.com
  * Description:       Get the countdown time of Ramadhan for Bangladesh.
- * Version:           1.0.0
- * Requires at least: 4.0
- * Requires PHP:      5.6
+ * Version:           1.2.0
+ * Requires at least: 6.1
+ * Requires PHP:      7.4
  * Author:            Amdadul Haq
- * Author URI:        https://fb.com/amdad121
+ * Author URI:        https://amdadulhaq.com
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  */
@@ -72,8 +72,8 @@ class rdcd_countdown extends WP_Widget
             echo $args['before_title'] . $title . $args['after_title'];
         } ?>
 <div class="rm_wrapper">
-    <a href="https://codeofamdad.com" target="_blank">
-        <img class="rm_bg" src="https://codeofamdad.com/ads/rc.jpg" alt="rm">
+    <a href="https://codeappear.com" target="_blank">
+        <img class="rm_bg" src="https://codeappear.com/ads/rc.jpg" alt="rm">
     </a>
     <div id="logo" style="display: none;">
         <div class="rm_city"><b>ঢাকায়</b></div>
@@ -113,8 +113,8 @@ function rdcd_countdown_shortcode()
 {
     ob_start(); ?>
 <div class="rm_wrapper">
-    <a href="https://codeofamdad.com" target="_blank">
-        <img class="rm_bg" src="https://codeofamdad.com/ads/rc.jpg" alt="rm">
+    <a href="https://codeappear.com" target="_blank">
+        <img class="rm_bg" src="https://codeappear.com/ads/rc.jpg" alt="rm">
     </a>
     <div id="logo" style="display: none;">
         <div class="rm_city"><b>ঢাকায়</b></div>

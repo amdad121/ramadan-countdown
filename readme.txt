@@ -1,11 +1,11 @@
 === Ramadan Countdown ===
 Contributors: amdad121
-Donate link: https://codeofamdad.com
+Donate link: https://codeappear.com
 Tags: Ramadan, Countdown, Seheri time, Iftar time, Timetable
-Requires at least: 4.6
-Tested up to: 5.4
-Stable tag: 5.4
-Requires PHP: 5.6
+Requires at least: 6.1
+Tested up to: 6.7
+Stable tag: 1.2.0
+Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,6 +34,11 @@ It is very easy to use. see the description.
 2. This is the second screen shot
 
 == Changelog ==
+
+= 1.2.0 =
+* 2025 Ramadan Timetable added.
+* Bug fixes
+* Code Optimized.
 
 = 1.0 =
 * A change since the previous version.
