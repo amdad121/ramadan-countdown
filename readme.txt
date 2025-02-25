@@ -30,8 +30,8 @@ It is very easy to use. see the description.
 
 == Screenshots ==
 
-1. This is the first screen shot
-2. This is the second screen shot
+1. Summery Timetable for Dhaka City
+2. Division wise Timetable for Ramadan
 
 == Changelog ==
 
