@@ -13,18 +13,18 @@ This is the plugin where you can get the Ramadan Timetable with Countdown.
 
 == Description ==
 
-This is the plugin where you can get the Ramadan Timetable with Countdown. It us easy to use. It has a widget & shortcode. you can use with your choice.
+This is the plugin where you can get the Ramadan Timetable with Countdown. It is easy to use and has a widget and shortcode that you can use as you please.
 
-If you want to use as a shortcode. just put on the code where you want to show :-
-<pre><code>[rdcd_countdown]</code></pre>
+If you want to use it as a shortcode. just put on the code where you want to show:-
+<code>[rdcd_countdown]</code>
 or
-<pre><code>[rdcd_timetable]</code></pre>
+<code>[rdcd_timetable]</code>
 
 == Frequently Asked Questions ==
 
 = What is this? =
 
-This is a plugin for showing Ramadan Countdown on your website.
+This is a plugin that shows Ramadan Countdown on your website.
 
 = How to use it? =
 
@@ -51,12 +51,12 @@ It is very easy to use. see the description.
 * Another change.
 
 = 0.5 =
-* List versions from most recent at top to oldest at bottom.
+* List versions from most recent at the top to oldest at the bottom.
 
 == Upgrade Notice ==
 
 = 1.0 =
-Upgrade notices describe the reason a user should upgrade.  No more than 300 characters.
+Upgrade notices describe the reason a user should upgrade—no more than 300 characters.
 
 = 0.5 =
-This version fixes a security related bug.  Upgrade immediately.
+This version fixes a security-related bug.  Upgrade immediately.
