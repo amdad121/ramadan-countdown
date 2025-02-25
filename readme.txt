@@ -1,6 +1,6 @@
 === Ramadan Countdown ===
 Contributors: amdad121
-Donate link: https://codeappear.com
+Donate link: https://amdadulhaq.com
 Tags: Ramadan, Countdown, Seheri time, Iftar time, Timetable
 Requires at least: 6.1
 Tested up to: 6.7
